@@ -1,0 +1,186 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.first-page {
+    color: #ddd;
+    background-image: url("https://images.unsplash.com/photo-1650294354388-728c2fe2a29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    height: 700px;
+    object-fit: fill;
+    font-family: "Lato", sans-serif;
+}
+
+#about-me {
+    width: 70%;
+    text-align: center;
+}
+
+.contact {
+    border-width: 2px;
+    border-color: #ddd;
+    border-style: solid;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 15px;
+    height: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Logo {
+    margin: 30px;
+    font-size: larger;
+}
+
+#loren {
+    font-size: 80px;
+}
+
+.centerAlign {
+    text-align: center;
+}
+
+.content-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 15px;
+}
+
+.second-page {
+    height: 450px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.logo-info {
+    margin-top: 100px;
+    justify-items: inherit;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project_single {
+    height: 10%;
+    width: 10%;
+    margin: 50px 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.myProject {
+    background-color: #2196f3;
+    padding: 30px 30px;
+}
+
+.button {
+    background-color: #2196f3;
+    color: white;
+    text-align: center;
+}
+
+.features {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+}
+
+.features_block {
+    font-size: 1rem;
+    text-align: center;
+    padding: 4rem;
+}
+.logo_block {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.menu {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Container for skill bars */
+.container {
+    width: 50%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.graph {
+    margin-left: 300px;
+}
+
+.skills {
+    /* text-align: right; Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #04aa6d;
+} /* Green */
+.css {
+    width: 80%;
+    background-color: #2196f3;
+} /* Blue */
+.js {
+    width: 65%;
+    background-color: #f44336;
+} /* Red */
+.php {
+    width: 60%;
+    background-color: #808080;
+} /* Dark Grey */
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    margin: 30px 60px 60px 30px;
+}
+
+.pageFour {
+    background-color: #2196f3;
+    padding: 50px;
+}
